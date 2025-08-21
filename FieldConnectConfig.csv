@@ -16,7 +16,7 @@ AllowPriorPayPeriodEntry,0,Number of days back a user can enter or update payrol
 AllowTaskDelete,1,Ability to delete task in existing scope.,FieldAccess
 AllowTaskNoteEdit,1,Ability to edit Note on existing tasks.,FieldAccess
 AllowUnschedEstHoursChange,0,Allow estimated hours to be changed on unsceduled trips,FieldAccess
-AllTripCloseContactsOnReport,0,Include only contacts marked for trip close email",FieldAccess
+AllTripCloseContactsOnReport,0,Include only contacts marked for trip close email,FieldAccess
 ArtifactsPath,C:\FieldConnect\ACIS\wwwroot\FCAdministration\Artifacts,Path to fcadmin artifacts folder,All
 AttachDescrUpdate,1,Allow update of attachment description,All
 AttachmentRootPath,C:\FieldConnect\ACIS\Attachments,Drive and path of the attachments folder.,All
@@ -126,9 +126,9 @@ FPUsingOffline,,Using offline for FieldProject.,FieldProject
 FPUsingProjectAssignments,,Ability to treat project and phase as an assignment where status can be tracked.,FieldProject
 FTApproveMethod,Approve Only,Approval method when using the FT approval process,FieldTime
 FTReportVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving FieldTime reports to the DM module. The list is filtered to only show custom types.,FieldTime
-GeoCodeAccessKey,DTHLfzhqmkGUjAf5aAzPng==,Key used to access FieldConnect mapping services,All
-GeoCodeServiceActive,,Use new FieldConnect mapping service,All
-GeoCodeServiceApiKey,,Api key to Geo coding service,All
+GeoCodeAccessKey,<<redacted>>,Key used to access FieldConnect mapping services,All
+GeoCodeServiceActive,<<redacted>>,Use new FieldConnect mapping service,All
+GeoCodeServiceApiKey,<<redacted>>,Api key to Geo coding service,All
 GeoCodeServicePlugin,GeoCodeFarm,Plugin that communicates with geo code service,All
 HideContactsLink,,Do not show the contacts link on the details page,FieldAccess
 HideCrewList,,Do not show crew list for crew leaders,FieldTime
@@ -356,11 +356,11 @@ VPSMCompany,1,SM Company,All
 WODisplayDaysRange,"365,30",Days past and future for Trip list page,FieldAccess
 WoPOVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving work order PO attachments to the DM module. The list is filtered to only show custom types.,FieldAccess
 WorkOrderPOAttachments,,Allow user to add attachments for work order POs,FieldAccess
-XOIApiIntegrationBaseId,ACISFieldConnect,The unique lookup id that identifies the customer integration. 10 character minimum,All
-XOIApiJobsUrl,https://gql-jobs-external.xoi.io/graphql,The URL to the XOi Jobs API,All
-XOIApiKey,acis+fc@xoi.io,The API key for authentication,All
-XOIApiSecret,Zo3-Cuk6=R1,The API secret for authentication,All
-XOIApiShareUrl,https://gql-share-external.xoi.io/graphql,The URL to the XOi Share API,All
-XOIApiUserDataUrl,https://gql-users-external.xoi.io/graphql,The URL to the XOi User Data API,All
-XOIApiUserUrl,https://api-users-external.xoi.io/prod,The URL to the XOi Users API,All
+XOIApiIntegrationBaseId,<<redacted>>,The unique lookup id that identifies the customer integration. 10 character minimum,All
+XOIApiJobsUrl,<<redacted>>,The URL to the XOi Jobs API,All
+XOIApiKey,<<redacted>>,The API key for authentication,All
+XOIApiSecret,<<redacted>>,The API secret for authentication,All
+XOIApiShareUrl,<<redacted>>,The URL to the XOi Share API,All
+XOIApiUserDataUrl,<<redacted>>,The URL to the XOi User Data API,All
+XOIApiUserUrl,<<redacted>>,The URL to the XOi Users API,All
 ZipReportEmailAttachments,,Zip up all attachments including forms when emailing the service report,FieldAccess
