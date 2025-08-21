@@ -190,7 +190,7 @@ MiscCostOrPrice,None,Show cost or price field for misc items,FieldAccess
 MiscFormsHideSvcItemList,,Hide the serviceable item list on the misc forms page,FieldAccess
 MultiDateBulkNonStock,,Start and end dates for bulk non stock entries,FieldAccess
 MultiDayTripRetrieval,,Retrieve trips marked as multiday in calendar and schedule views.,All
-MultipleAttachmentUpload,,Allow multiple attachments to be uploaded at once,All
+MultipleAttachmentUpload,1,Allow multiple attachments to be uploaded at once,All
 MustHaveLocationServices,,"To Log In, User must have location services turned on",FieldAccess
 NewSiteSelectTaxCode,,Allow tax code selection when creating a new site.,FieldAccess
 NewTripCreation,,Allow ceation of new trips for a work order,FieldAccess
@@ -224,7 +224,7 @@ PONumberEntry,,Allow manual PO number entry,FieldAccess
 PONumberEntryDispatch,,Allow manual PO number entry,FieldGateway
 PORequestIncludeAttchments,,Select existing attachments to include with PO request,FieldAccess
 PreloadBulkNonStock,,Preload non stock bulk add grid,FieldAccess
-PreselectAttachments,Forms,Preselect attachments on the service report email page,FieldAccess
+PreselectAttachments,Both,Preselect attachments on the service report email page,FieldAccess
 PreventTripCompleteIfXOIJobOpen,,Prevent trip completion if XOi job is not complete,FieldAccess
 PRLockTimesheet,,Lock the timesheet if PTEnterdByMethod is Global.,All
 ProjectReport,VPDefaultDailyProjectReport.htm,Report file name.,FieldProject
@@ -277,7 +277,7 @@ SetMiscPrice,,Allow editing of misc items price for non-standard entries,FieldQu
 SetRateTemplateReadOnly,,Set rate template selection to read only,FieldQuotes
 ShowAllAgreements,,Show all agreements including inactive and expired,FieldDirect
 ShowAttachmentDefaultCategories,,Display the default attachment categories,All
-ShowAttachThumbnail,No,Show thumbnail image in attachment list. Only applies to image type attachments,All
+ShowAttachThumbnail,Yes,Show thumbnail image in attachment list. Only applies to image type attachments,All
 ShowCertifiedPayrollOnNewWO,,Show Certified Payroll in new work order page,All
 ShowCompletedWorkOrders,,Show assignments where the work order is complete.,FieldGateway
 ShowCostInNonStockBulkList,,Show cost in non stock bulk entry page,FieldAccess
@@ -301,11 +301,11 @@ ShowToolsMenu,,Tools menu in FieldAccess,FieldAccess
 ShowTripNotes,,Show trip notes in the work order details page,FieldDirect
 SiteHistoryDaysPast,1825,The number of days in the past to show service site history information. Applies to the SiteHistory page.,FieldAccess
 SiteHistoryDefaultToLogs,,Default to logs tab in site history for job based work orders,FieldAccess
-SMTPAuthPassword,Tex@sHeat1028,Password of authentication user,All
-SMTPAuthUser,FieldConnectMgr@ACISinc.com,Username of the user to authenticate with the email server,All
-SMTPPort,587,Port to use to connect to SMTP server,All
-SMTPServer,smtp.office365.com,Email server domain name. Example: mail.myco.com,All
-SMTPUsesSSL,,Use SSL when forwarding email,All
+SMTPAuthPassword,<<redacted>>,Password of authentication user,All
+SMTPAuthUser,<<redacted>>,Username of the user to authenticate with the email server,All
+SMTPPort,<<redacted>>,Port to use to connect to SMTP server,All
+SMTPServer,<<redacted>>,Email server domain name. Example: mail.myco.com,All
+SMTPUsesSSL,1,Use SSL when forwarding email,All
 SpecifyScopePriceMethod,,Allow user to specify the scope price method when creating a new work order.,All
 StatusDateTimeEdit,,Allow the date and time of status changes to be editable.,FieldAccess
 StatusLaborTypeSelect,,Allow user to select labor and pay type for labor entries from status changes. Role.ShowEarnType must be on for pay type selection.,FieldAccess
@@ -332,7 +332,7 @@ UseNextPREndDate,,Use a PR End Date from Vista instead of from payroll period se
 UseOnlyBatchCreatedBy,,Use only payroll batches that have been created by this user,All
 UseSiteDescription,,Display site description instead of site id.,FieldTime
 UsingApprovals,,FieldTime approvals,FieldTime
-UsingAttachments,,Enable or disable attachments,All
+UsingAttachments,1,Enable or disable attachments,All
 UsingFollowUpTemplates,,Using follow-up email templates,FieldAccess
 UsingFormDataDescription,,Using form data descriptions,FieldAccess
 UsingFormDataPreLoad,,When starting a new form the data can be pre-loaded from that last completed form for that site.,FieldAccess
