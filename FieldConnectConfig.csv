@@ -38,8 +38,8 @@ CheckForTimeout,0,Redirects user to login page due to inactivity. Applies to Fie
 ClearReportSignatureRecord,0,Clear report signature after emailing. Applies only if EmailForSignature is enabled.,FieldAccess
 ColumnMarginRight,4,Margin on right side of column in scheduling,FieldAccess
 CombineFormsInReportEmail,0,Combine all selected forms in one PDF attachment for the report email,FieldAccess
-CompanyAddress,,Company address. The | character will be replaced with a line break,
-CompanyLogo,Combined_Logo_40.jpg,Name of the image file used on all forms and sites. The image must be in the ''Images'' folder of any application that will use it. Images are not re-sized. Recommended size is 250x50,
+CompanyAddress,,Company address. The | character will be replaced with a line break,All
+CompanyLogo,Combined_Logo_40.jpg,Name of the image file used on all forms and sites. The image must be in the ''Images'' folder of any application that will use it. Images are not re-sized. Recommended size is 250x50,All
 CompanyName,ACIS, Inc.,Company name shown on the service report,All
 ConvertToFlatRateOnComplete,,Convert the quote to flate rate when completed.,FieldQuotes
 CopyPONumFromWorkOrder,,Copy PO number from the associated work order,FieldQuotes
