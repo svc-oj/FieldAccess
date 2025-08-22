@@ -1,31 +1,31 @@
 Name,Value,Description,AppliesTo
 AddTimestampToNotes,Date+Time,Prepends all new notes from FieldAccess with a date and timestamp. Only applies when tech permission is append.,FieldAccess
-AlertDispatchforNewTrip,0,Enable new trip notification,FieldAccess
-AlertSiteNotesExist,0,Alert the tech that site notes exist when opening the Trip details page,FieldAccess
+AlertDispatchforNewTrip,,Enable new trip notification,FieldAccess
+AlertSiteNotesExist,,Alert the tech that site notes exist when opening the Trip details page,FieldAccess
 AlertSyncErrors,1,Send email alert to admin email address when offline sync up errors occur,FieldAccess
 AllContactsOnReport,1,Include all the emails of site contacts in service report viewer.,FieldAccess
 AllowAdditionInCustSignoffStage,0,Allow addtions in customer signoff stage,FieldQuotes
-AllowAmountBasedEntries,0,Allow amount based time entries,FieldProject
+AllowAmountBasedEntries,,Allow amount based time entries,FieldProject
 AllowAttachmentDeletion,1,Allows deletion of attachments through the FieldConnect applications,All
-AllowBlankLaborCode,0,Allow a blank labor code to be used when entering labor,All
-AllowDailyLogDelete,0,Allow daily logs to be deleted,All
+AllowBlankLaborCode,,Allow a blank labor code to be used when entering labor,All
+AllowDailyLogDelete,,Allow daily logs to be deleted,All
 AllowEquipmentChange,1,Allow equipment to be changed on the scope. Does not apply to PM work orders.,FieldAccess
-AllowFutureLaborDates,0,Allow labor to set past the current day but within the pay period.,FieldAccess
+AllowFutureLaborDates,,Allow labor to set past the current day but within the pay period.,FieldAccess
 AllowPOCreatePreMandatoryForms,0,Allow PO creation before mandatory forms are completed,FieldAccess
-AllowPriorPayPeriodEntry,0,Number of days back a user can enter or update payroll entries from the beginning of the current period. Must be 0-7.,All
+AllowPriorPayPeriodEntry,,Number of days back a user can enter or update payroll entries from the beginning of the current period. Must be 0-7.,All
 AllowTaskDelete,1,Ability to delete task in existing scope.,FieldAccess
 AllowTaskNoteEdit,1,Ability to edit Note on existing tasks.,FieldAccess
-AllowUnschedEstHoursChange,0,Allow estimated hours to be changed on unsceduled trips,FieldAccess
-AllTripCloseContactsOnReport,0,Include only contacts marked for trip close email,FieldAccess
+AllowUnschedEstHoursChange,,Allow estimated hours to be changed on unsceduled trips,FieldAccess
+AllTripCloseContactsOnReport,,Include only contacts marked for trip close email,FieldAccess
 ArtifactsPath,C:\FieldConnect\ACIS\wwwroot\FCAdministration\Artifacts,Path to fcadmin artifacts folder,All
 AttachDescrUpdate,1,Allow update of attachment description,All
 AttachmentRootPath,C:\FieldConnect\ACIS\Attachments,Drive and path of the attachments folder.,All
 AttachReportToTrip,1,Attach service report to trip,All
 AttachToJob,1,Associate work order attachments with job. Includes service reports.,All
 AttachToPMContract,1,Attach project attachments to the contract,FieldProject
-AutoAddCrewTime,0,When tracking real time or travel time add hours for crew as well.,All
+AutoAddCrewTime,,When tracking real time or travel time add hours for crew as well.,All
 AutoCompleteCall,None,Complete scope and or close work order after last trip is completed,FieldAccess
-BaseFileNameMandatory,0,Make base file name for multiple attachments mandatory,FieldAccess
+BaseFileNameMandatory,,Make base file name for multiple attachments mandatory,FieldAccess
 CalendarCellHeight,26,Height of calendar view row cells - defaults to 26 - min is 26,FieldGateway
 CallHistoryDaysRange,"54750,30","Comma delimitted Work Order/Calls search date range. Format is DaysBack,DaysForward. Default is 90,0",FieldDirect
 CapturingProjectSignatures,1,Signature on the project report.,FieldProject
@@ -34,7 +34,7 @@ CenterEmailOnFTReport,1,Include the service center email on the fieldtime report
 CenterEmailOnReport,1,Include the service center email on the service report,FieldAccess
 ChartDaysOnly,1,Show days and no hours on the chart,FieldGateway
 ChartEventHeight,36,Height of chart view event cells - defaults to 36 - min is 36,FieldGateway
-CheckForTimeout,0,Redirects user to login page due to inactivity. Applies to FieldProject users as well.,FieldAccess
+CheckForTimeout,,Redirects user to login page due to inactivity. Applies to FieldProject users as well.,FieldAccess
 ClearReportSignatureRecord,0,Clear report signature after emailing. Applies only if EmailForSignature is enabled.,FieldAccess
 ColumnMarginRight,4,Margin on right side of column in scheduling,FieldAccess
 CombineFormsInReportEmail,0,Combine all selected forms in one PDF attachment for the report email,FieldAccess
