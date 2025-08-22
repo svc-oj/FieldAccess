@@ -330,8 +330,8 @@ UseFieldTimeV2,,Use the FieldTime version 2 page,FieldTime
 UseLogicalStatusProgression,,Only allow status to be changed to the next logical step. For exaample if the trip is EnRoute then only selection available will be Arrived. Some statuses may allow mutliple selections and should be filtered out if not wanted.,FieldAccess
 UseNextPREndDate,,Use a PR End Date from Vista instead of from payroll period setting for labor through payroll records,All
 UseOnlyBatchCreatedBy,,Use only payroll batches that have been created by this user,All
-UseSiteDescription,q,Display site description instead of site id.,FieldTime
-UsingApprovals,q,FieldTime approvals,FieldTime
+UseSiteDescription,1,Display site description instead of site id.,FieldTime
+UsingApprovals,1,FieldTime approvals,FieldTime
 UsingAttachments,1,Enable or disable attachments,All
 UsingFollowUpTemplates,,Using follow-up email templates,FieldAccess
 UsingFormDataDescription,,Using form data descriptions,FieldAccess
