@@ -6,7 +6,7 @@ AlertSyncErrors,1,Send email alert to admin email address when offline sync up e
 AllContactsOnReport,1,Include all the emails of site contacts in service report viewer.,FieldAccess
 AllowAdditionInCustSignoffStage,,Allow addtions in customer signoff stage,FieldQuotes
 AllowAmountBasedEntries,,Allow amount based time entries,FieldProject
-AllowAttachmentDeletion,1,Allows deletion of attachments through the FieldConnect applications,All
+AllowAttachmentDeletion,,Allows deletion of attachments through the FieldConnect applications,All
 AllowBlankLaborCode,,Allow a blank labor code to be used when entering labor,All
 AllowDailyLogDelete,,Allow daily logs to be deleted,All
 AllowEquipmentChange,1,Allow equipment to be changed on the scope. Does not apply to PM work orders.,FieldAccess
@@ -18,11 +18,11 @@ AllowTaskNoteEdit,1,Ability to edit Note on existing tasks.,FieldAccess
 AllowUnschedEstHoursChange,,Allow estimated hours to be changed on unsceduled trips,FieldAccess
 AllTripCloseContactsOnReport,,Include only contacts marked for trip close email,FieldAccess
 ArtifactsPath,C:\FieldConnect\ACIS\wwwroot\FCAdministration\Artifacts,Path to fcadmin artifacts folder,All
-AttachDescrUpdate,1,Allow update of attachment description,All
+AttachDescrUpdate,,Allow update of attachment description,All
 AttachmentRootPath,C:\FieldConnect\ACIS\Attachments,Drive and path of the attachments folder.,All
-AttachReportToTrip,1,Attach service report to trip,All
-AttachToJob,1,Associate work order attachments with job. Includes service reports.,All
-AttachToPMContract,1,Attach project attachments to the contract,FieldProject
+AttachReportToTrip,,Attach service report to trip,All
+AttachToJob,,Associate work order attachments with job. Includes service reports.,All
+AttachToPMContract,,Attach project attachments to the contract,FieldProject
 AutoAddCrewTime,,When tracking real time or travel time add hours for crew as well.,All
 AutoCompleteCall,None,Complete scope and or close work order after last trip is completed,FieldAccess
 BaseFileNameMandatory,,Make base file name for multiple attachments mandatory,FieldAccess
@@ -30,8 +30,8 @@ CalendarCellHeight,26,Height of calendar view row cells - defaults to 26 - min i
 CallHistoryDaysRange,"54750,30","Comma delimitted Work Order/Calls search date range. Format is DaysBack,DaysForward. Default is 90,0",FieldDirect
 CapturingProjectSignatures,1,Signature on the project report.,FieldProject
 CapturingSignatures,1,Flag to indicate signature capture for service reports,FieldAccess
-CenterEmailOnFTReport,1,Include the service center email on the fieldtime report,FieldTime
-CenterEmailOnReport,1,Include the service center email on the service report,FieldAccess
+CenterEmailOnFTReport,,Include the service center email on the fieldtime report,FieldTime
+CenterEmailOnReport,1Include the service center email on the service report,FieldAccess
 ChartDaysOnly,1,Show days and no hours on the chart,FieldGateway
 ChartEventHeight,36,Height of chart view event cells - defaults to 36 - min is 36,FieldGateway
 CheckForTimeout,,Redirects user to login page due to inactivity. Applies to FieldProject users as well.,FieldAccess
@@ -40,14 +40,14 @@ ColumnMarginRight,4,Margin on right side of column in scheduling,FieldAccess
 CombineFormsInReportEmail,,Combine all selected forms in one PDF attachment for the report email,FieldAccess
 CompanyAddress,,Company address. The | character will be replaced with a line break,All
 CompanyLogo,Combined_Logo_40.jpg,Name of the image file used on all forms and sites. The image must be in the ''Images'' folder of any application that will use it. Images are not re-sized. Recommended size is 250x50,All
-CompanyName,ACIS Inc.,Company name shown on the service report,All
+CompanyName,,Company name shown on the service report,All
 ConvertToFlatRateOnComplete,1,Convert the quote to flate rate when completed.,FieldQuotes
 CopyPONumFromWorkOrder,,Copy PO number from the associated work order,FieldQuotes
 CostTypesForProgress,All,Limit cost types for progress entry.,FieldProject
 CreateCustomerSite,None,Allow new customer and / or site creation.,FieldAccess
 CreateNewScope,,Allow user to create a new scope,FieldAccess
 CrewListByLeaderPRDepartment,,Limit crew list by crew leader PR department,FieldAccess
-CustEmailOnProjReport,1,Include customer email.,FieldProject
+CustEmailOnProjReport,,Include customer email.,FieldProject
 CustEmailOnReport,1,Include customer email form on service report viewer,FieldAccess
 CustomColumns,,Custom data in detail view.,FieldTime
 CustomerNotificationsEnabled,,When the status of an assignment is set to In-Route an email is sent to the Site,FieldAccess
@@ -104,16 +104,16 @@ EnableUnapprovedTime,,Enable Unapproved Time Report in FieldTime,FieldTime
 EquipAdvReadOnlyProperties,,Set advanced equipment properties section read only by disabling update,FieldAccess
 ExcludeTechEmailOnReport,,Exclude tech email on service report,FieldAccess
 ExtApprovalCheckMandatory,,Make the extension approvals mandatory,FieldTime
-ExternalFieldAccessURL,https://acisinc.fieldconnect.com/FieldAccess,The base URL for FieldAccess accessible from the internet,FieldAccess
+ExternalFieldAccessURL,https://acisinc.fieldconnect.com/test/FieldAccess,The base URL for FieldAccess accessible from the internet,FieldAccess
 ExternalFieldQuotesURL,,The base URL for FieldQuotes accessible from the internet,FieldQuotes
 FAEnableShiftField,,Enable or disable shift field in labor entry.,FieldAccess
 FCPaymentReference,Workorder,Ability to save FC payment in workorder or scope.,FieldAccess
 FDCompanyLogo,Combined_Logo_30.jpg,Name of the image file used on all forms and sites. The image must be in the 'Images' folder of any application that will use it. Images are not re-sized. Recommended size is 250x50,FieldDirect
 FGTimeCardSignature,,Require a signature in FieldGateway FieldTime,FieldTime
-FieldAccessFormsURL,https://acisinc.fieldconnect.com/FieldAccess/Forms,The url to the FieldAccess forms templates,FieldDirect
-FieldAccessURL,https://acisinc.fieldconnect.com/FieldAccess,FieldAccess URL for FieldQuotes users,FieldQuotes
-FieldDirectURL,https://acisinc.fieldconnect.com/FieldDirect,The URL to the FieldDirect customer portal,All
-FieldQuotesURL,https://acisinc.fieldconnect.com/FieldQuotes,FieldQuotes URL for FieldAccess users,FieldAccess
+FieldAccessFormsURL,https://acisinc.fieldconnect.com/test/FieldAccess/Forms,The url to the FieldAccess forms templates,FieldDirect
+FieldAccessURL,https://acisinc.fieldconnect.com/test/FieldAccess,FieldAccess URL for FieldQuotes users,FieldQuotes
+FieldDirectURL,https://acisinc.fieldconnect.com/test/FieldDirect,The URL to the FieldDirect customer portal,All
+FieldQuotesURL,https://acisinc.fieldconnect.com/test/FieldQuotes,FieldQuotes URL for FieldAccess users,FieldAccess
 FieldTimeURL,,FieldTime URL for FieldAccess users,FieldAccess
 FollowUpAction,Email,Followup action,FieldAccess
 FollowUpEmailToServiceCenter,,Include service center email in followup,FieldAccess
@@ -128,7 +128,7 @@ FTApproveMethod,Approve Only,Approval method when using the FT approval process,
 FTReportVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving FieldTime reports to the DM module. The list is filtered to only show custom types.,FieldTime
 GeoCodeAccessKey,<<redacted>>,Key used to access FieldConnect mapping services,All
 GeoCodeServiceActive,1,Use new FieldConnect mapping service,All
-GeoCodeServiceApiKey,<<redacted>>,Api key to Geo coding service,All
+GeoCodeServiceApiKey,,Api key to Geo coding service,All
 GeoCodeServicePlugin,GeoCodeFarm,Plugin that communicates with geo code service,All
 HideContactsLink,,Do not show the contacts link on the details page,FieldAccess
 HideCrewList,,Do not show crew list for crew leaders,FieldTime
@@ -190,7 +190,7 @@ MiscCostOrPrice,None,Show cost or price field for misc items,FieldAccess
 MiscFormsHideSvcItemList,,Hide the serviceable item list on the misc forms page,FieldAccess
 MultiDateBulkNonStock,,Start and end dates for bulk non stock entries,FieldAccess
 MultiDayTripRetrieval,,Retrieve trips marked as multiday in calendar and schedule views.,All
-MultipleAttachmentUpload,1,Allow multiple attachments to be uploaded at once,All
+MultipleAttachmentUpload,,Allow multiple attachments to be uploaded at once,All
 MustHaveLocationServices,,"To Log In, User must have location services turned on",FieldAccess
 NewSiteSelectTaxCode,,Allow tax code selection when creating a new site.,FieldAccess
 NewTripCreation,,Allow ceation of new trips for a work order,FieldAccess
@@ -224,12 +224,12 @@ PONumberEntry,,Allow manual PO number entry,FieldAccess
 PONumberEntryDispatch,,Allow manual PO number entry,FieldGateway
 PORequestIncludeAttchments,,Select existing attachments to include with PO request,FieldAccess
 PreloadBulkNonStock,,Preload non stock bulk add grid,FieldAccess
-PreselectAttachments,Both,Preselect attachments on the service report email page,FieldAccess
+PreselectAttachments,Forms,Preselect attachments on the service report email page,FieldAccess
 PreventTripCompleteIfXOIJobOpen,,Prevent trip completion if XOi job is not complete,FieldAccess
 PRLockTimesheet,1,Lock the timesheet if PTEnterdByMethod is Global.,All
 ProjectReport,VPDefaultDailyProjectReport.htm,Report file name.,FieldProject
 ProjReportVPAttachType,AR Cash Receipts - Customer Check Copy,The type to use when saving project reports to the DM module. The list is filtered to only show custom types.,All
-PTCreateTimeHeader,,Create timesheets for payroll periods if they do not exist.,FieldAccess
+PTCreateTimeHeader,1,Create timesheets for payroll periods if they do not exist.,FieldAccess
 PTDefaultEarnCode,1 - Regular (HOURLY),Default earn code for project timesheet entries if employee default earn code is not found.,FieldAccess
 PTEnterdByMethod,Global,Project time timesheet entry employee. If Global then PTEntryEmployee nedds to be set.,FieldAccess
 PTEntryEmployee,Jennifer R. Rodriguez,Timesheet entry employee if PTEnterdByMethod = Global.,FieldAccess
@@ -277,7 +277,7 @@ SetMiscPrice,1,Allow editing of misc items price for non-standard entries,FieldQ
 SetRateTemplateReadOnly,,Set rate template selection to read only,FieldQuotes
 ShowAllAgreements,,Show all agreements including inactive and expired,FieldDirect
 ShowAttachmentDefaultCategories,1,Display the default attachment categories,All
-ShowAttachThumbnail,Yes - Default Off,Show thumbnail image in attachment list. Only applies to image type attachments,All
+ShowAttachThumbnail,No,Show thumbnail image in attachment list. Only applies to image type attachments,All
 ShowCertifiedPayrollOnNewWO,,Show Certified Payroll in new work order page,All
 ShowCompletedWorkOrders,,Show assignments where the work order is complete.,FieldGateway
 ShowCostInNonStockBulkList,,Show cost in non stock bulk entry page,FieldAccess
@@ -315,14 +315,14 @@ TaskDescriptionUpdate,,Ability to update the task descriptions,FieldQuotes
 TaskReport,,Task report template name,FieldAccess
 TaskReportVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving task reports to the DM module. The list is filtered to only show custom types.,FieldAccess
 TechSelectNewWorkOrder,All,Permission to select a different tech for new work order and trip,FieldAccess
-TimeCardSignature,,Capture signature,FieldTime
+TimeCardSignature,1,Capture signature,FieldTime
 TimeClockMode,None,"Clock in, out mode",FieldAccess
 TrackRealTime,,Labor record created when suspending a call and completing a call.,FieldAccess
 TravelTimeLaborCode,110 - Repair,Repair code for travel time entries.,FieldAccess
 TravelTimePayType,15 - Regular Time,Pay type for travel time entries.,FieldAccess
 TripScheduleChange,,Allow tech to change the trip schedule date/time,FieldAccess
 TripsInSiteHistory,,Retrieve trips for each work order in site history..,FieldAccess
-UnappliedMemoRequired,,Require a memo to be entered for unapplied time entries,FieldAccess
+UnappliedMemoRequired,1,Require a memo to be entered for unapplied time entries,FieldAccess
 UnappliedTimeBreaks,,Allow break time entry in unapplied time. Only applies when using labor through payroll.,FieldAccess
 UseAgreementRateTemplate,,Use the rate template from the selected agreement for new quotes,FieldQuotes
 UseEquipLocationLookup,,Lookup equipment by location.,FieldAccess
@@ -330,13 +330,13 @@ UseFieldTimeV2,,Use the FieldTime version 2 page,FieldTime
 UseLogicalStatusProgression,,Only allow status to be changed to the next logical step. For exaample if the trip is EnRoute then only selection available will be Arrived. Some statuses may allow mutliple selections and should be filtered out if not wanted.,FieldAccess
 UseNextPREndDate,,Use a PR End Date from Vista instead of from payroll period setting for labor through payroll records,All
 UseOnlyBatchCreatedBy,,Use only payroll batches that have been created by this user,All
-UseSiteDescription,q,Display site description instead of site id.,FieldTime
-UsingApprovals,q,FieldTime approvals,FieldTime
+UseSiteDescription,1,Display site description instead of site id.,FieldTime
+UsingApprovals,1,FieldTime approvals,FieldTime
 UsingAttachments,1,Enable or disable attachments,All
 UsingFollowUpTemplates,,Using follow-up email templates,FieldAccess
 UsingFormDataDescription,,Using form data descriptions,FieldAccess
 UsingFormDataPreLoad,,When starting a new form the data can be pre-loaded from that last completed form for that site.,FieldAccess
-UsingForms,,Flag to indicate required forms in use,All
+UsingForms,1,Flag to indicate required forms in use,All
 UsingFTApprovalProcess,,Using the FieldTime approval process,FieldTime
 UsingInspectionReport,,Inpection report functionality,FieldAccess
 UsingInventoryGroups,,Inventory group selection for parts,FieldAccess
@@ -349,13 +349,13 @@ UsingStatusCheckChange,1,Custom status change validation,FieldAccess
 UsingUnappliedTime,1,Indirect labor hours,FieldAccess
 UsingUnassignedTrips,,Enable unassigned trips list,FieldAccess
 UsingUnscheduledTrips,,Enable unscheduled trips list.,FieldAccess
-UsingVPAttachTypes,All Types,Allow users to select the attachment type when uploading attachments.,All
+UsingVPAttachTypes,Custom Types,Allow users to select the attachment type when uploading attachments.,All
 UsingXOiIntegration,1,Using XOi Integration,All
 VPJCCompany,,The JC company id. ONLY SET THIS IF NOT USING SM. VPSMCompany MUST BE BLANK,All
 VPSMCompany,1,SM Company,All
 WODisplayDaysRange,"365,30",Days past and future for Trip list page,FieldAccess
 WoPOVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving work order PO attachments to the DM module. The list is filtered to only show custom types.,FieldAccess
-WorkOrderPOAttachments,1,Allow user to add attachments for work order POs,FieldAccess
+WorkOrderPOAttachments,,Allow user to add attachments for work order POs,FieldAccess
 XOIApiIntegrationBaseId,<<redacted>>,The unique lookup id that identifies the customer integration. 10 character minimum,All
 XOIApiJobsUrl,<<redacted>>,The URL to the XOi Jobs API,All
 XOIApiKey,<<redacted>>,The API key for authentication,All
@@ -363,4 +363,5 @@ XOIApiSecret,<<redacted>>,The API secret for authentication,All
 XOIApiShareUrl,<<redacted>>,The URL to the XOi Share API,All
 XOIApiUserDataUrl,<<redacted>>,The URL to the XOi User Data API,All
 XOIApiUserUrl,<<redacted>>,The URL to the XOi Users API,All
-ZipReportEmailAttachments,1,Zip up all attachments including forms when emailing the service report,FieldAccess
+ZipReportEmailAttachments,,Zip up all attachments including forms when emailing the service report,FieldAccess
+
