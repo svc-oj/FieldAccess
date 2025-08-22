@@ -315,14 +315,14 @@ TaskDescriptionUpdate,,Ability to update the task descriptions,FieldQuotes
 TaskReport,,Task report template name,FieldAccess
 TaskReportVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving task reports to the DM module. The list is filtered to only show custom types.,FieldAccess
 TechSelectNewWorkOrder,All,Permission to select a different tech for new work order and trip,FieldAccess
-TimeCardSignature,,Capture signature,FieldTime
+TimeCardSignature,1,Capture signature,FieldTime
 TimeClockMode,None,"Clock in, out mode",FieldAccess
 TrackRealTime,,Labor record created when suspending a call and completing a call.,FieldAccess
 TravelTimeLaborCode,110 - Repair,Repair code for travel time entries.,FieldAccess
 TravelTimePayType,15 - Regular Time,Pay type for travel time entries.,FieldAccess
 TripScheduleChange,,Allow tech to change the trip schedule date/time,FieldAccess
 TripsInSiteHistory,,Retrieve trips for each work order in site history..,FieldAccess
-UnappliedMemoRequired,,Require a memo to be entered for unapplied time entries,FieldAccess
+UnappliedMemoRequired,1,Require a memo to be entered for unapplied time entries,FieldAccess
 UnappliedTimeBreaks,,Allow break time entry in unapplied time. Only applies when using labor through payroll.,FieldAccess
 UseAgreementRateTemplate,,Use the rate template from the selected agreement for new quotes,FieldQuotes
 UseEquipLocationLookup,,Lookup equipment by location.,FieldAccess
@@ -336,7 +336,7 @@ UsingAttachments,1,Enable or disable attachments,All
 UsingFollowUpTemplates,,Using follow-up email templates,FieldAccess
 UsingFormDataDescription,,Using form data descriptions,FieldAccess
 UsingFormDataPreLoad,,When starting a new form the data can be pre-loaded from that last completed form for that site.,FieldAccess
-UsingForms,,Flag to indicate required forms in use,All
+UsingForms,1,Flag to indicate required forms in use,All
 UsingFTApprovalProcess,,Using the FieldTime approval process,FieldTime
 UsingInspectionReport,,Inpection report functionality,FieldAccess
 UsingInventoryGroups,,Inventory group selection for parts,FieldAccess
