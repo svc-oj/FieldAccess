@@ -12,7 +12,7 @@ AllowDailyLogDelete,,Allow daily logs to be deleted,All
 AllowEquipmentChange,1,Allow equipment to be changed on the scope. Does not apply to PM work orders.,FieldAccess
 AllowFutureLaborDates,,Allow labor to set past the current day but within the pay period.,FieldAccess
 AllowPOCreatePreMandatoryForms,,Allow PO creation before mandatory forms are completed,FieldAccess
-AllowPriorPayPeriodEntry,,Number of days back a user can enter or update payroll entries from the beginning of the current period. Must be 0-7.,All
+AllowPriorPayPeriodEntry,0,Number of days back a user can enter or update payroll entries from the beginning of the current period. Must be 0-7.,All
 AllowTaskDelete,1,Ability to delete task in existing scope.,FieldAccess
 AllowTaskNoteEdit,1,Ability to edit Note on existing tasks.,FieldAccess
 AllowUnschedEstHoursChange,,Allow estimated hours to be changed on unsceduled trips,FieldAccess
