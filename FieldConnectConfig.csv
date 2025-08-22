@@ -4,14 +4,14 @@ AlertDispatchforNewTrip,,Enable new trip notification,FieldAccess
 AlertSiteNotesExist,,Alert the tech that site notes exist when opening the Trip details page,FieldAccess
 AlertSyncErrors,1,Send email alert to admin email address when offline sync up errors occur,FieldAccess
 AllContactsOnReport,1,Include all the emails of site contacts in service report viewer.,FieldAccess
-AllowAdditionInCustSignoffStage,0,Allow addtions in customer signoff stage,FieldQuotes
+AllowAdditionInCustSignoffStage,,Allow addtions in customer signoff stage,FieldQuotes
 AllowAmountBasedEntries,,Allow amount based time entries,FieldProject
 AllowAttachmentDeletion,1,Allows deletion of attachments through the FieldConnect applications,All
 AllowBlankLaborCode,,Allow a blank labor code to be used when entering labor,All
 AllowDailyLogDelete,,Allow daily logs to be deleted,All
 AllowEquipmentChange,1,Allow equipment to be changed on the scope. Does not apply to PM work orders.,FieldAccess
 AllowFutureLaborDates,,Allow labor to set past the current day but within the pay period.,FieldAccess
-AllowPOCreatePreMandatoryForms,0,Allow PO creation before mandatory forms are completed,FieldAccess
+AllowPOCreatePreMandatoryForms,,Allow PO creation before mandatory forms are completed,FieldAccess
 AllowPriorPayPeriodEntry,,Number of days back a user can enter or update payroll entries from the beginning of the current period. Must be 0-7.,All
 AllowTaskDelete,1,Ability to delete task in existing scope.,FieldAccess
 AllowTaskNoteEdit,1,Ability to edit Note on existing tasks.,FieldAccess
@@ -35,9 +35,9 @@ CenterEmailOnReport,1,Include the service center email on the service report,Fie
 ChartDaysOnly,1,Show days and no hours on the chart,FieldGateway
 ChartEventHeight,36,Height of chart view event cells - defaults to 36 - min is 36,FieldGateway
 CheckForTimeout,,Redirects user to login page due to inactivity. Applies to FieldProject users as well.,FieldAccess
-ClearReportSignatureRecord,0,Clear report signature after emailing. Applies only if EmailForSignature is enabled.,FieldAccess
+ClearReportSignatureRecord,,Clear report signature after emailing. Applies only if EmailForSignature is enabled.,FieldAccess
 ColumnMarginRight,4,Margin on right side of column in scheduling,FieldAccess
-CombineFormsInReportEmail,0,Combine all selected forms in one PDF attachment for the report email,FieldAccess
+CombineFormsInReportEmail,,Combine all selected forms in one PDF attachment for the report email,FieldAccess
 CompanyAddress,,Company address. The | character will be replaced with a line break,All
 CompanyLogo,Combined_Logo_40.jpg,Name of the image file used on all forms and sites. The image must be in the ''Images'' folder of any application that will use it. Images are not re-sized. Recommended size is 250x50,All
 CompanyName,ACIS Inc.,Company name shown on the service report,All
