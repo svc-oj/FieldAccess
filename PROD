@@ -224,7 +224,7 @@ PONumberEntry,,Allow manual PO number entry,FieldAccess
 PONumberEntryDispatch,,Allow manual PO number entry,FieldGateway
 PORequestIncludeAttchments,,Select existing attachments to include with PO request,FieldAccess
 PreloadBulkNonStock,,Preload non stock bulk add grid,FieldAccess
-PreselectAttachments,Both,Preselect attachments on the service report email page,FieldAccess
+PreselectAttachments,Forms,Preselect attachments on the service report email page,FieldAccess
 PreventTripCompleteIfXOIJobOpen,,Prevent trip completion if XOi job is not complete,FieldAccess
 PRLockTimesheet,1,Lock the timesheet if PTEnterdByMethod is Global.,All
 ProjectReport,VPDefaultDailyProjectReport.htm,Report file name.,FieldProject
@@ -364,3 +364,4 @@ XOIApiShareUrl,<<redacted>>,The URL to the XOi Share API,All
 XOIApiUserDataUrl,<<redacted>>,The URL to the XOi User Data API,All
 XOIApiUserUrl,<<redacted>>,The URL to the XOi Users API,All
 ZipReportEmailAttachments,,Zip up all attachments including forms when emailing the service report,FieldAccess
+
