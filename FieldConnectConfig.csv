@@ -173,7 +173,7 @@ LaborDateEdit,1,Allow tech to set the date of labor entries,FieldAccess
 LaborRoundingPoint,None,Round labor to nearest specified minute.,All
 LaborRoundingType,Billed,"Apply rounding to auto labor entries for Billed, Cost or Both. Works with the LaborRoundingPoint setting.",FieldAccess
 LaborTechSelectDefaultToUser,,Set labor tech selection to the logged on tech user. Does not apply for office users.,FieldQuotes
-LaborTechSelectDefaultToUserReadOnly,,Set labor tech selection to read only. Does not apply for office users.,FieldQuotes
+LaborTechSelectDefaultToUserReadOnly,1,Set labor tech selection to read only. Does not apply for office users.,FieldQuotes
 LaborThroughPayroll,,Enter labor in timecard entry instead of work completed,All
 LandingPage,,Customer landing page,FieldDirect
 LastCustomerWOAlert,10,Show an alert on new call page if the last work order created for the selected customer is older than this many days,FieldGateway
