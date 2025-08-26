@@ -6,7 +6,7 @@ AlertSyncErrors,1,Send email alert to admin email address when offline sync up e
 AllContactsOnReport,1,Include all the emails of site contacts in service report viewer.,FieldAccess
 AllowAdditionInCustSignoffStage,,Allow addtions in customer signoff stage,FieldQuotes
 AllowAmountBasedEntries,,Allow amount based time entries,FieldProject
-AllowAttachmentDeletion,,Allows deletion of attachments through the FieldConnect applications,All
+AllowAttachmentDeletion,1,Allows deletion of attachments through the FieldConnect applications,All
 AllowBlankLaborCode,,Allow a blank labor code to be used when entering labor,All
 AllowDailyLogDelete,,Allow daily logs to be deleted,All
 AllowEquipmentChange,1,Allow equipment to be changed on the scope. Does not apply to PM work orders.,FieldAccess
@@ -18,11 +18,11 @@ AllowTaskNoteEdit,1,Ability to edit Note on existing tasks.,FieldAccess
 AllowUnschedEstHoursChange,,Allow estimated hours to be changed on unsceduled trips,FieldAccess
 AllTripCloseContactsOnReport,,Include only contacts marked for trip close email,FieldAccess
 ArtifactsPath,C:\FieldConnect\ACIS\wwwroot\FCAdministration\Artifacts,Path to fcadmin artifacts folder,All
-AttachDescrUpdate,,Allow update of attachment description,All
+AttachDescrUpdate,1,Allow update of attachment description,All
 AttachmentRootPath,C:\FieldConnect\ACIS\Attachments,Drive and path of the attachments folder.,All
-AttachReportToTrip,,Attach service report to trip,All
-AttachToJob,,Associate work order attachments with job. Includes service reports.,All
-AttachToPMContract,,Attach project attachments to the contract,FieldProject
+AttachReportToTrip,1,Attach service report to trip,All
+AttachToJob,1,Associate work order attachments with job. Includes service reports.,All
+AttachToPMContract,1,Attach project attachments to the contract,FieldProject
 AutoAddCrewTime,,When tracking real time or travel time add hours for crew as well.,All
 AutoCompleteCall,None,Complete scope and or close work order after last trip is completed,FieldAccess
 BaseFileNameMandatory,,Make base file name for multiple attachments mandatory,FieldAccess
@@ -30,8 +30,8 @@ CalendarCellHeight,26,Height of calendar view row cells - defaults to 26 - min i
 CallHistoryDaysRange,"54750,30","Comma delimitted Work Order/Calls search date range. Format is DaysBack,DaysForward. Default is 90,0",FieldDirect
 CapturingProjectSignatures,1,Signature on the project report.,FieldProject
 CapturingSignatures,1,Flag to indicate signature capture for service reports,FieldAccess
-CenterEmailOnFTReport,,Include the service center email on the fieldtime report,FieldTime
-CenterEmailOnReport,,Include the service center email on the service report,FieldAccess
+CenterEmailOnFTReport,1,Include the service center email on the fieldtime report,FieldTime
+CenterEmailOnReport,1,Include the service center email on the service report,FieldAccess
 ChartDaysOnly,1,Show days and no hours on the chart,FieldGateway
 ChartEventHeight,36,Height of chart view event cells - defaults to 36 - min is 36,FieldGateway
 CheckForTimeout,,Redirects user to login page due to inactivity. Applies to FieldProject users as well.,FieldAccess
@@ -47,7 +47,7 @@ CostTypesForProgress,All,Limit cost types for progress entry.,FieldProject
 CreateCustomerSite,None,Allow new customer and / or site creation.,FieldAccess
 CreateNewScope,,Allow user to create a new scope,FieldAccess
 CrewListByLeaderPRDepartment,,Limit crew list by crew leader PR department,FieldAccess
-CustEmailOnProjReport,,Include customer email.,FieldProject
+CustEmailOnProjReport,,1Include customer email.,FieldProject
 CustEmailOnReport,1,Include customer email form on service report viewer,FieldAccess
 CustomColumns,,Custom data in detail view.,FieldTime
 CustomerNotificationsEnabled,,When the status of an assignment is set to In-Route an email is sent to the Site,FieldAccess
@@ -104,16 +104,16 @@ EnableUnapprovedTime,,Enable Unapproved Time Report in FieldTime,FieldTime
 EquipAdvReadOnlyProperties,,Set advanced equipment properties section read only by disabling update,FieldAccess
 ExcludeTechEmailOnReport,,Exclude tech email on service report,FieldAccess
 ExtApprovalCheckMandatory,,Make the extension approvals mandatory,FieldTime
-ExternalFieldAccessURL,https://acisinc.fieldconnect.com/test/FieldAccess,The base URL for FieldAccess accessible from the internet,FieldAccess
+ExternalFieldAccessURL,https://acisinc.fieldconnect.com/FieldAccess,The base URL for FieldAccess accessible from the internet,FieldAccess
 ExternalFieldQuotesURL,,The base URL for FieldQuotes accessible from the internet,FieldQuotes
 FAEnableShiftField,,Enable or disable shift field in labor entry.,FieldAccess
 FCPaymentReference,Workorder,Ability to save FC payment in workorder or scope.,FieldAccess
 FDCompanyLogo,Combined_Logo_30.jpg,Name of the image file used on all forms and sites. The image must be in the 'Images' folder of any application that will use it. Images are not re-sized. Recommended size is 250x50,FieldDirect
 FGTimeCardSignature,,Require a signature in FieldGateway FieldTime,FieldTime
-FieldAccessFormsURL,https://acisinc.fieldconnect.com/test/FieldAccess/Forms,The url to the FieldAccess forms templates,FieldDirect
-FieldAccessURL,https://acisinc.fieldconnect.com/test/FieldAccess,FieldAccess URL for FieldQuotes users,FieldQuotes
-FieldDirectURL,https://acisinc.fieldconnect.com/test/FieldDirect,The URL to the FieldDirect customer portal,All
-FieldQuotesURL,https://acisinc.fieldconnect.com/test/FieldQuotes,FieldQuotes URL for FieldAccess users,FieldAccess
+FieldAccessFormsURL,https://acisinc.fieldconnect.com/FieldAccess/Forms,The url to the FieldAccess forms templates,FieldDirect
+FieldAccessURL,https://acisinc.fieldconnect.com/FieldAccess,FieldAccess URL for FieldQuotes users,FieldQuotes
+FieldDirectURL,https://acisinc.fieldconnect.com/FieldDirect,The URL to the FieldDirect customer portal,All
+FieldQuotesURL,https://acisinc.fieldconnect.com/FieldQuotes,FieldQuotes URL for FieldAccess users,FieldAccess
 FieldTimeURL,,FieldTime URL for FieldAccess users,FieldAccess
 FollowUpAction,Email,Followup action,FieldAccess
 FollowUpEmailToServiceCenter,,Include service center email in followup,FieldAccess
@@ -190,7 +190,7 @@ MiscCostOrPrice,None,Show cost or price field for misc items,FieldAccess
 MiscFormsHideSvcItemList,,Hide the serviceable item list on the misc forms page,FieldAccess
 MultiDateBulkNonStock,,Start and end dates for bulk non stock entries,FieldAccess
 MultiDayTripRetrieval,,Retrieve trips marked as multiday in calendar and schedule views.,All
-MultipleAttachmentUpload,,Allow multiple attachments to be uploaded at once,All
+MultipleAttachmentUpload,1,Allow multiple attachments to be uploaded at once,All
 MustHaveLocationServices,,"To Log In, User must have location services turned on",FieldAccess
 NewSiteSelectTaxCode,,Allow tax code selection when creating a new site.,FieldAccess
 NewTripCreation,,Allow ceation of new trips for a work order,FieldAccess
@@ -224,7 +224,7 @@ PONumberEntry,,Allow manual PO number entry,FieldAccess
 PONumberEntryDispatch,,Allow manual PO number entry,FieldGateway
 PORequestIncludeAttchments,,Select existing attachments to include with PO request,FieldAccess
 PreloadBulkNonStock,,Preload non stock bulk add grid,FieldAccess
-PreselectAttachments,Forms,Preselect attachments on the service report email page,FieldAccess
+PreselectAttachments,Both,Preselect attachments on the service report email page,FieldAccess
 PreventTripCompleteIfXOIJobOpen,,Prevent trip completion if XOi job is not complete,FieldAccess
 PRLockTimesheet,1,Lock the timesheet if PTEnterdByMethod is Global.,All
 ProjectReport,VPDefaultDailyProjectReport.htm,Report file name.,FieldProject
@@ -277,7 +277,7 @@ SetMiscPrice,1,Allow editing of misc items price for non-standard entries,FieldQ
 SetRateTemplateReadOnly,,Set rate template selection to read only,FieldQuotes
 ShowAllAgreements,,Show all agreements including inactive and expired,FieldDirect
 ShowAttachmentDefaultCategories,1,Display the default attachment categories,All
-ShowAttachThumbnail,No,Show thumbnail image in attachment list. Only applies to image type attachments,All
+ShowAttachThumbnail,Yes - Default Off,Show thumbnail image in attachment list. Only applies to image type attachments,All
 ShowCertifiedPayrollOnNewWO,,Show Certified Payroll in new work order page,All
 ShowCompletedWorkOrders,,Show assignments where the work order is complete.,FieldGateway
 ShowCostInNonStockBulkList,,Show cost in non stock bulk entry page,FieldAccess
@@ -294,7 +294,7 @@ ShowQuoteAttachments,,Show attachments for the related quote,All
 ShowQuotes,,Show quotes list and quote properties,FieldDirect
 ShowReportAfterComplete,Never,Show report after the trip has been completed,FieldAccess
 ShowSchedule,,Show calendar schedule page.,FieldAccess
-ShowSecuredVPAttachTypes,,Show secured types. Applies when UsingVPAttachTypes is true,All
+ShowSecuredVPAttachTypes,1,Show secured types. Applies when UsingVPAttachTypes is true,All
 ShowSMCostType,,Show SM Cost Type when entering labor,FieldAccess
 ShowStatusHistory,1,Show grid of status dates and times.,FieldAccess
 ShowToolsMenu,1,Tools menu in FieldAccess,FieldAccess
@@ -355,7 +355,7 @@ VPJCCompany,,The JC company id. ONLY SET THIS IF NOT USING SM. VPSMCompany MUST 
 VPSMCompany,1,SM Company,All
 WODisplayDaysRange,"365,30",Days past and future for Trip list page,FieldAccess
 WoPOVPAttachType,ACIS Project Scope - ACIS Agreement with Scope Details,The type to use when saving work order PO attachments to the DM module. The list is filtered to only show custom types.,FieldAccess
-WorkOrderPOAttachments,,Allow user to add attachments for work order POs,FieldAccess
+WorkOrderPOAttachments,1,Allow user to add attachments for work order POs,FieldAccess
 XOIApiIntegrationBaseId,<<redacted>>,The unique lookup id that identifies the customer integration. 10 character minimum,All
 XOIApiJobsUrl,<<redacted>>,The URL to the XOi Jobs API,All
 XOIApiKey,<<redacted>>,The API key for authentication,All
@@ -363,5 +363,6 @@ XOIApiSecret,<<redacted>>,The API secret for authentication,All
 XOIApiShareUrl,<<redacted>>,The URL to the XOi Share API,All
 XOIApiUserDataUrl,<<redacted>>,The URL to the XOi User Data API,All
 XOIApiUserUrl,<<redacted>>,The URL to the XOi Users API,All
-ZipReportEmailAttachments,,Zip up all attachments including forms when emailing the service report,FieldAccess
+ZipReportEmailAttachments,1,Zip up all attachments including forms when emailing the service report,FieldAccess
+
 
