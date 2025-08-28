@@ -20,7 +20,7 @@ AllTripCloseContactsOnReport,,Include only contacts marked for trip close email,
 ArtifactsPath,C:\FieldConnect\ACIS\wwwroot\FCAdministration\Artifacts,Path to fcadmin artifacts folder,All
 AttachDescrUpdate,1,Allow update of attachment description,All
 AttachmentRootPath,C:\FieldConnect\ACIS\Attachments,Drive and path of the attachments folder.,All
-AttachReportToTrip,1,Attach service report to trip,All
+AttachReportToTrip,,Attach service report to trip,All
 AttachToJob,1,Associate work order attachments with job. Includes service reports.,All
 AttachToPMContract,1,Attach project attachments to the contract,FieldProject
 AutoAddCrewTime,,When tracking real time or travel time add hours for crew as well.,All
@@ -364,5 +364,6 @@ XOIApiShareUrl,<<redacted>>,The URL to the XOi Share API,All
 XOIApiUserDataUrl,<<redacted>>,The URL to the XOi User Data API,All
 XOIApiUserUrl,<<redacted>>,The URL to the XOi Users API,All
 ZipReportEmailAttachments,1,Zip up all attachments including forms when emailing the service report,FieldAccess
+
 
 
